@@ -10,7 +10,7 @@
             android:icon="@drawable/ic_home"
             />
         <item
-            android:id="@+id/_akun_saya"
+            android:id="@+id/nav_akun_saya"
             android:title="Akun Saya"
             android:icon="@drawable/ic_account"/>
         <item
