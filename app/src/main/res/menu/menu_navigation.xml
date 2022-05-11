@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_beranda"
+            android:title="Beranda"
+            android:icon="@drawable/ic_home"
+            />
+        <item
+            android:id="@+id/_akun_saya"
+            android:title="Akun Saya"
+            android:icon="@drawable/ic_account"/>
+        <item
+            android:id="@+id/nav_kegiatan"
+            android:title="Kegiatan"
+            android:icon="@drawable/ic_calendar"/>
+
+
+    </group>
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="none"
+        >
+
+        <item
+            android:id="@+id/nav_anggota"
+            android:title="Anggota"
+            android:icon="@drawable/ic_android"/>
+        <item
+            android:id="@+id/nav_keluar"
+            android:title="Keluar"
+            android:icon="@drawable/ic_exit"/>
+
+    </group>
+</menu>
